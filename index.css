@@ -69,7 +69,7 @@ header nav{
 }
 
 header a{
-    padding: 5px 12px;
+    padding: 50px 12px;
     text-decoration: none;
     font-weight: bold;
     color: black;
@@ -206,33 +206,43 @@ header a:hover{
 }
 #caracteristicas .container{
     text-align: center;
-    padding: 250px 12px;
 }
 
 #caracteristicas li{
-    margin: 16px 0px;
-    font-weight: bold;
+    margin-top: 0;
+    font-size: 1em;
 }
-
-#final{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: rgb(30,30,30);
-    color: white;
-    height: 80vh;
+#mas h1 {
+    font-size: 7.0em;
+    margin: 1;
+    padding: 5px;
+    color: blue;
 }
-
-#final h2{
-    font-size: 9vw;
+#mas h2{
+    font-size: 4em;
+    margin: 1;
+    padding: 10px;
 }
-
-#final button{
-    font-size: 5vw;
+#mas h3{
+    font-size: 2em;
+    margin: 1;
+    padding: 10px;
 }
-
+#mas li{
+    font-size: 2.4em;
+    padding: 10px;
+    margin: 1;
+}
+#mas .img{
+    background-image: url("media/descarga.jpg");
+    background-position: right right;
+    float: right;
+    height: 600px;
+    width: 600px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right right;
+}
 footer{
     background-color: rgb(230,230,230);
 }
@@ -368,7 +378,7 @@ footer .container{
     }
 
     #caracteristicas{
-        background-image: url("media/background-2.jpeg");
+        background-image: url("media/-2.jpeg");
         background-repeat: no-repeat;
         background-size: 500px 400px;
         background-position: calc(100vw - 500px) 120px;

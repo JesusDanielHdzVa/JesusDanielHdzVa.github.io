@@ -206,9 +206,11 @@ header a:hover{
 }
 #caracteristicas .container{
     text-align: center;
-    padding: 250px 12px;
+    padding: 55px 12px;
 }
-
+#caracterisitcas .container .espacio{
+    padding: 100px;
+}
 #caracteristicas li{
     margin: 16px 0px;
     font-weight: bold;
