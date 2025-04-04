@@ -384,7 +384,9 @@ footer .container{
     #caracteristicas ul{
         margin-left: 100px;
     }
-
+    #caracteristicas .esp{
+        padding: 400px;
+    }
     #final h2{
         font-size: 5em;
     }

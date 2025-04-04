@@ -57,16 +57,19 @@
     </div>
 </section>
 <section id="caracteristicas">
-    <div class="container">
+    <div class="container">     
         <h1>Python</h1>
             <h3>Lista de temas a ver</h1>
-            <h2><a href="#Print">Print</a></h2>
-            <h2>Variables</h2>
-            <h2>Ciclos</h2>
-            <h2>Funciones</h2>
-            <h2>Mas</h2>
+            <h2><a href="#Print">Print</h2>
+            <h2><a href="#Variables">Variables</a></h2>
+            <h2><a href="#Bucles">Ciclos</a></h2>
+            <h2><a href="#Funciones">Funciones</a></h2>
+            <h2><a href="#Estructuras">Condicionales</a></h2>
+            <section class="esp">
+
+            </section>
         <section id="Print">
-            <h2>Print</h2>
+            <h1>Print</h1>
             <p>Para imprimir un mensaje en la consola, se usa la función <code>print()</code>:</p>
             
             <div class="codigo">
@@ -86,40 +89,340 @@
                 <div class="codigo">
                     print("Necesitas algo mas?")
                 </div>
+                <div class="codigo">
+                    print("¡Hola, bienvenido a nuestro sistema!")
+                </div>
+                <p>Aquí mostramos un mensaje de bienvenida</p>
+                <div class="codigo">
+                    print("Esperamos que tengas un gran día.")
+                </div>
+                
+                <div class="codigo">
+                    print("Introduce tu nombre para continuar:")
+                </div>
+                <p>Aquí solicitamos el nombre del usuario</p>
+                <div class="codigo">
+                    print("Gracias por proporcionar tu nombre.")
+                </div>
+                
+                <div class="codigo">
+                    print("Cargando datos, por favor espera...")
+                </div>
+                <p>Aquí informamos al usuario sobre el estado del sistema</p>
+                <div class="codigo">
+                    print("Carga completada con éxito.")
+                </div>
+                
+                <div class="codigo">
+                    print("Selecciona una opción del menú:")
+                </div>
+                <p>Aquí mostramos las opciones disponibles</p>
+                <div class="codigo">
+                    print("1. Ver perfil | 2. Editar perfil | 3. Cerrar sesión")
+                </div>
+                
+                <div class="codigo">
+                    print("Has cerrado sesión correctamente.")
+                </div>
+                <p>Aquí confirmamos que el usuario ha salido del sistema</p>
+                <div class="codigo">
+                    print("Vuelve pronto.")
+                </div>
+                <div>
+                    
+                </div>
+                <h1><a href="#caracteristicas">Regresar al temario</a></h1>
+        </section>
+        <section class="esp">
+
+        </section>
+        <section id="Variables">            
+            <h1>Variables en Python</h2>
+            <h2>¿Que es una variable en python?</h2>
+            <p>En Python, una variable es un contenedor que almacena valores de datos. Los valores pueden ser de varios tipos, como enteros, flotantes, cadenas, listas y diccionarios. </p>
+            <h3>Entre las variables tenemos 4 tipos</h3>
+            <p><strong>Int(Enteros)</strong></p>
+            <p><strong>Float(Decimales)</strong></p>
+            <p><strong>Boobleanos(1 o 0)</strong></p>
+            <p><strong>String(Texto)</strong></p>
+            <div class="codigo">
+                nombre = "Jesús" (String)
+                edad = 20 (Int)
+                precio = 19.99 (Float)
+                x = 0 (Boobleanos)
+            </div>
+
+            <p>Aqui te mostramos un pequeño ejemplo sobre que tipo de variables existen, como puedes ver al lado de ellas  aparece que tipo de variable son</p>
+            <h2>Mas ejemplos de este tipo</h2>
+            <div class="codigo">
+                mensaje_despedida = "Esperamos que tengas un gran día."
+            </div>
+            
+            <div class="codigo">
+                edad_usuario = 25
+            </div>
+            <p>Aquí almacenamos la edad del usuario</p>
+            <div class="codigo">
+                cantidad_productos = 10
+            </div>
+            
+            <div class="codigo">
+                precio_producto = 49.99
+            </div>
+            <p>Aquí almacenamos el precio de un producto</p>
+            <div class="codigo">
+                total_compra = 5 * precio_producto
+            </div>
+            
+            <div class="codigo">
+                usuario_activo = True
+            </div>
+            <p>Aquí verificamos si el usuario está activo</p>
+            <div class="codigo">
+                permisos_admin = False
+            </div>
+            
+            <div class="codigo">
+                temperatura_actual = 22.5
+            </div>
+            <p>Aquí almacenamos la temperatura actual</p>
+            <div class="codigo">
+                porcentaje_descuento = 15.0
+            </div>
+            <div>
+
+            </div>
+            <h1><a href="#caracteristicas">Regresar al temario</a></h1>
+            <section class="esp">
+
             </section>
-        </div>
-        <h2>Variables en Python</h2>
-        <p>Python permite definir variables sin especificar su tipo:</p>
-        
-        <div class="codigo">
-            nombre = "Jesús"
-            edad = 20
-            precio = 19.99
-        </div>
-    
-        <h2>Estructuras de control</h2>
-        <h3>Condicionales</h3>
-        <p>Ejemplo de estructura <code>if</code>:</p>
-        
-        <div class="codigo">
-            edad = 18
-            if edad >= 18:
-                print("Eres mayor de edad")
-            else:
-                print("Eres menor de edad")
-        </div>
-    
-        <h3>Bucles</h3>
-        <p>Ejemplo de un bucle <code>for</code>:</p>
+        </section>
+
+        <section id="Bucles">
+        <h1>Bucles</h1>
+        <h2>¿Que es un bucle en python?</h2>
+        <p><strong>Los bucles en Python</strong> son estructuras de control que permiten repetir la ejecución de un bloque de código varias veces. Se utilizan para implementar iteraciones, es decir, realizar una acción varias veces. 
+            <br>Existen dos tipos de bucles en Python: 
+            <br><strong>Bucle for:</strong> Se utiliza cuando se conoce el número de repeticiones de antemano.
+            <br><strong>Bucle while:</strong> Se utiliza cuando no se conoce el número de repeticiones de antemano.</p>
         
         <div class="codigo">
             for i in range(5):
                 print("Iteración", i)
         </div>
-    
-        <h2>Conclusión</h2>
-        <p>Python es un lenguaje poderoso y fácil de aprender. Es ideal tanto para principiantes como para desarrolladores avanzados.</p>
-    
+        <h2>Mas ejemplos de este tipo</h2>
+
+        <div class="codigo">
+            for i in range(5):
+                print("Iteración número:", i)
+        </div>
+        <p>Aquí recorremos un bucle for con 5 iteraciones</p>
+        <div class="codigo">
+            for letra in "Python":
+                print("Letra:", letra)
+        </div>
+        <p>Aqui con una palabra que escribamos se nos pondran las letras</p>
+        <p></p>
+        <div class="codigo">
+            contador = 0
+            while contador < 3:
+                print("Contador:", contador)
+                contador += 1
+        </div>
+        <p>Aquí usamos un bucle while para contar hasta 2</p>
+        <div class="codigo">
+            num = 10
+            while num >= 5:
+                print("Número:", num)
+                num -= 1
+        </div>
+        
+        <div class="codigo">
+            for numero in range(2, 11, 2):
+                print("Número par:", numero)
+        </div>
+        <p>Aquí usamos un for para mostrar números pares del 2 al 10</p>
+        <div class="codigo">
+            for x in range(3):
+                print("Hola, esta es la repetición", x + 1)
+        </div>
+        
+        <div class="codigo">
+            suma = 0
+            for i in range(1, 6):
+                suma += i
+        </div>
+        <p>Aquí sumamos los números del 1 al 5 usando for</p>
+        <div class="codigo">
+            multiplicador = 1
+            while multiplicador <= 5:
+                resultado = multiplicador * 2
+                multiplicador += 1
+        </div>
+        <div>
+
+        </div>
+        <h1><a href="#caracteristicas">Regresar al temario</a></h1>
+        <section class="esp">
+
+        </section>
+        </section>
+
+        <section id="Funciones">
+            <h1>Funciones</h2>
+            <h2>¿Que es una funcion en python?</h3>
+            <p><strong>En Python, una función</strong> es un bloque de código reutilizable que realiza una tarea específica, puede recibir argumentos como entrada y devolver un valor como salida.
+                <br>Para crear una funcion se utiliza el comando <strong>def</strong> y para llamarlo se utilizara unicamente el nombre que le hayas asignado por ejemplo:
+            </p>
+            <div class="codigo">
+                def miprimerafuncion():
+                    pass
+                miprimerafuncion()
+
+            </div>
+            <p>Aqui como puedes ver se crea la funcion, "miprimerafuncion" para despues ser llamada</p>
+            <h2>Mas ejemplos de este tipo</h2>
+            <div class="codigo">
+                def saludo():
+                    print("¡Hola, bienvenido!")
+                
+                saludo()
+            </div>
+            <p>Aquí definimos y llamamos a una función que muestra un saludo</p>
+            <div class="codigo">
+                def sumar(a, b):
+                    return a + b
+                
+                resultado = sumar(5, 3)
+            </div>
+            
+            <div class="codigo">
+                def es_par(numero):
+                    return numero % 2 == 0
+                
+                numero_verificado = 10
+                resultado_par = es_par(numero_verificado)
+            </div>
+            <p>Aquí definimos una función que verifica si un número es par y la usamos</p>
+            <div class="codigo">
+                def obtener_mensaje():
+                    return "Este es un mensaje desde una función."
+                
+                mensaje = obtener_mensaje()
+            </div>
+            
+            <div class="codigo">
+                def contar_hasta(n):
+                    for i in range(1, n + 1):
+                        print(i)
+                
+                contar_hasta(5)
+            </div>
+            <p>Aquí definimos y llamamos a una función que cuenta hasta un número dado</p>
+            <div class="codigo">
+                def calcular_area_circulo(radio):
+                    pi = 3.1416
+                    return pi * radio * radio
+                
+                area = calcular_area_circulo(4)
+            </div>
+            
+            <div class="codigo">
+                def repetir_palabra(palabra, veces):
+                    for _ in range(veces):
+                        print(palabra)
+                
+                repetir_palabra("Python", 3)
+            </div>
+            <p>Aquí definimos y llamamos a una función que repite una palabra varias veces</p>
+            <div class="codigo">
+                def verificar_mayor(edad):
+                    return edad >= 18
+                
+                mayor_de_edad = verificar_mayor(20)
+            </div>
+            <h1><a href="#caracteristicas">Regresar al temario</a></h1>
+            <section class="esp">
+
+            </section>
+        </section>
+        <section id="Estructuras">
+        <h1>Concidiconales</h1>
+        <h2>¿Que son las Condicionales python?</h2>
+        <p>En python <strong>las condicionales</strong> son sentencias condicionales que permiten que un programa ejecute código si se cumplen las condiciones. Este sistema de toma de decisiones es esencial para los programadores, especialmente en el campo de la Data Science.</p>
+        <h3>Tipos de condicionales</h3>
+        <p>Existen algunos tipos de condicionales pero los mas importantes son
+        <p><strong>if</strong> es una sentencia condicional que permite ejecutar código si se cumple una condición.</p>
+        <p>
+            <strong>if else</strong>  Funciona de manera muy similar al if pero else es una sentencia condicional que se usa junto con if y elif para controlar el flujo de ejecución.
+        </p>
+        <p><strong>elif</strong>elif es la abreviatura de "else if". Se usa cuando la primera sentencia if no es verdadera, pero se desea verificar otra condición.</p>
+        
+        <div class="codigo">
+            edad = 18
+            if edad >= 18:
+                print("Eres mayor de edad.")
+        </div>
+        <p>Aquí verificamos si una persona es mayor de edad</p>
+        <h2>Mas ejemplos de este tipo</h2>
+        <div class="codigo">
+            temperatura = 30
+            if temperatura > 25:
+                print("Hace calor hoy.")
+        </div>
+        
+        <div class="codigo">
+            numero = 0
+            if numero > 0:
+                print("El número es positivo.")
+            elif numero < 0:
+                print("El número es negativo.")
+            else:
+                print("El número es cero.")
+        </div>
+        <p>Aquí verificamos si un número es positivo, negativo o cero</p>
+        <div class="codigo">
+            hora = 15
+            if hora < 12:
+                print("Buenos días.")
+            elif hora < 18:
+                print("Buenas tardes.")
+            else:
+                print("Buenas noches.")
+        </div>
+        
+        <div class="codigo">
+            contraseña = "secreto123"
+            if contraseña == "secreto123":
+                print("Acceso concedido.")
+            else:
+                print("Acceso denegado.")
+        </div>
+        <p>Aquí verificamos si la contraseña ingresada es correcta</p>
+        <div class="codigo">
+            numero = 8
+            if numero % 2 == 0:
+                print("El número es par.")
+            else:
+                print("El número es impar.")
+        </div>
+        
+        <div class="codigo">
+            usuario_premium = True
+            if usuario_premium:
+                print("Tienes acceso a contenido exclusivo.")
+        </div>
+        <p>Aquí verificamos si un usuario es premium para darle acceso especial</p>
+        <div class="codigo">
+            stock = 5
+            cantidad_deseada = 3
+            if cantidad_deseada <= stock:
+                print("Pedido confirmado.")
+            else:
+                print("Stock insuficiente.")
+        </div>
+        <h1><a href="#caracteristicas">Regresar al temario</a></h1>
+    </section>
 </head>
 </html>
         </ul>
