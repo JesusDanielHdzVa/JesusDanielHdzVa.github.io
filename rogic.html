@@ -9,9 +9,9 @@
         <p class="logo"> <a href="index.html">Programacion para Estudiantes!</a></p>        
         <nav>
             <a href="#somos-proya">Descripcion basica</a>
-            <a href="#nuestros-programas">Descargar Rogic</a>
-            <a href="#caracteristicas">Ejercicios</a>
-
+            <a href="#nuestros-programas">Descargar C++</a>
+            <a href="#caracteristicas">Temario</a>
+            <a href="#ejercicos">Ejercicios</a>
         </nav>
     </div>
 </header>
@@ -59,134 +59,167 @@
 <section id="caracteristicas">
     <div class="container">
             <h1>Rogic</h1>
-                <h3>Lista de temas a ver</h1>
-                <h2><a href="#Print">Interfaz de Rogic</a></h2>
-                <h2>Sensores y actuadores</h2>
-                <h2>Estructuras de control</h2>
-                <h2>Uso de variables</h2>
-                <h2>Mas</h2>
-            <section id="Print">
-                <h2>Print</h2>
-                <p>Para imprimir un mensaje en la consola, se usa la función <code>print()</code>:</p>
+                <h1>Lista de temas a ver</h1>
+                <h2><a href="#rogic">Interfaz de Rogic</a></h2>
+                <h2><a href="artimeticos">Operadores Aritméticos</a></h2>
+                <h2><a href="ifelse">Condicionales (if, else)</a></h2>
+                <h2><a href="variables">Uso de variables</a>  </h2>
+                <h2><a href="datos">Entrada y Salida de Datos</a></h2>
+                <h2><a href="reed">Rogic Editor</a></h2>
+                <section class="esp">
                 
-                <div class="codigo">
-                    print("¡Hola, mundo!")
-                </div>
-                <p>El comando print nos servira para muchas cosas ya que junto a este se nos permitira imprimir cualquier tipo de cosa mediante la terminal que nos da visual estudio code</p><br>
-                <h3>Mas ejemplos de este tipo</h2>
-                    <p>Aqui se imprimira el nombre "Jesús"</p>
-                    <div class="codigo">
-                        print("Hola me llamo Jesús")
-                    </div>
-                    <p>Aqui se respondera a una suma </p>
-                    <div class="codigo">
-                        print("El resultado de tu suma es >= 10")
-                    </div>
-                    <p>Aqui preguntaremos al usuario si es que necesita algo mas</p>
-                    <div class="codigo">
-                        print("Necesitas algo mas?")
-                    </div>
                 </section>
-            </div>
-            <h2>Variables en Python</h2>
-            <p>Python permite definir variables sin especificar su tipo:</p>
+                <section id="rogic">
+                <h1>Interfaz de rogic</h1>
+                <div class="Interfaz">
+
+                </div>
+                <div>
+
+
+                    <h1>Componentes de la Interfaz de Rogic</h1>
+                    <h3>La interfaz de Rogic está diseñada para ofrecer una experiencia intuitiva y eficiente. A continuación, se describen en detalle seis componentes clave del entorno:</h3>
+                    
+                    <h1>1. Botones de Borrar Comandos</h1>
+                    <h3>Estos botones permiten eliminar o limpiar los comandos previamente ingresados en el área de comandos. Son esenciales para borrar errores o reiniciar una secuencia de instrucciones sin tener que cerrar el proyecto. Generalmente, cuentan con iconos identificativos, como una "X" o un borrador, y están ubicados de forma accesible para facilitar una edición rápida.</h3>
+                    
+                    <h1>2. Área de Comandos</h1>
+                    <h3>El Área de Comandos es el espacio destinado a la entrada de instrucciones o comandos específicos. Aquí se pueden escribir y modificar secuencias de comandos, permitiendo una interacción directa con el entorno de desarrollo. Este espacio suele incluir funcionalidades como historial de comandos y autocompletado para mejorar la productividad.</h3>
+                    
+                    <h1>3. Barrera de Navegación</h1>
+                    <h3>La Barrera de Navegación actúa como un delimitador visual que separa distintas secciones del entorno, facilitando la orientación del usuario. Esta división ayuda a identificar claramente dónde se encuentra el área de programación, el área de comandos y otras secciones del IDE, manteniendo una estructura organizada y evitando confusiones.</h3>
+                    
+                    <h1>4. Área de Programación</h1>
+                    <h3>El Área de Programación es el núcleo del entorno, donde se escribe, edita y visualiza el código fuente. Este espacio cuenta con características como resaltado de sintaxis, numeración de líneas y, en algunos casos, sugerencias de código. Su diseño está optimizado para minimizar distracciones y permitir al usuario concentrarse en el desarrollo del programa.</h3>
+                    
+                    <h1>5. Menú de Opciones</h1>
+                    <h3>El Menú de Opciones ofrece acceso a diversas configuraciones y herramientas del entorno. Desde este menú se pueden ajustar preferencias personales, cambiar el tema del editor, configurar el compilador o acceder a funciones avanzadas de depuración y ejecución. Es esencial para personalizar la experiencia y adaptar el entorno a las necesidades del usuario.</h3>
+                    
+                    <h1>6. Área de Botones</h1>
+                    <h3>El Área de Botones agrupa una serie de botones de acceso rápido que permiten ejecutar funciones comunes sin tener que navegar por menús complejos. Estos botones incluyen acciones como compilar, ejecutar, guardar y formatear el código, ayudando a agilizar el flujo de trabajo y facilitando la interacción con el entorno.</h3>
+                </div>
+                <h1><a href="#caracteristicas">Regresar al temario</a></h1>
+                <section class="esp">
+                
+                </section>            
             
-            <div class="codigo">
-                nombre = "Jesús"
-                edad = 20
-                precio = 19.99
-            </div>
-        
-            <h2>Estructuras de control</h2>
-            <h3>Condicionales</h3>
-            <p>Ejemplo de estructura <code>if</code>:</p>
             
-            <div class="codigo">
-                edad = 18
-                if edad >= 18:
-                    print("Eres mayor de edad")
-                else:
-                    print("Eres menor de edad")
-            </div>
-        
-            <h3>Bucles</h3>
-            <p>Ejemplo de un bucle <code>for</code>:</p>
+            <section id="arimteticos">
+                <h1>Operadores en Rogic</h1>
+                <div class="arim">
+
+                </div>
+                <div>
+                    <h3>Los operadores aritméticos en Rogic permiten realizar operaciones matemáticas básicas entre variables o valores numéricos. Son fundamentales para la mayoría de los programas, ya que permiten manipular y procesar datos de forma lógica. A continuación se describen los principales operadores y su función.</h3>
+
+                    <h1>1. Suma (+)</h1>
+                    <h3>El operador de suma se utiliza para agregar dos valores numéricos. Por ejemplo, si <code>a = 3</code> y <code>b = 5</code>, la expresión <code>a + b</code> dará como resultado <code>8</code>. Este operador también puede utilizarse para concatenar cadenas de texto en algunos contextos.</h3>
+                
+                    <h1>2. Resta (-)</h1>
+                    <h3>Este operador permite restar un valor de otro. Por ejemplo, si <code>a = 10</code> y <code>b = 4</code>, entonces <code>a - b</code> devuelve <code>6</code>. Es útil para calcular diferencias entre cantidades.</h3>
+                
+                    <h1>3. Multiplicación (*)</h1>
+                    <h3>El operador de multiplicación se usa para obtener el producto de dos números. Si <code>a = 6</code> y <code>b = 7</code>, entonces <code>a * b</code> resulta en <code>42</code>. Es esencial en programas que trabajan con fórmulas matemáticas o repeticiones.</h3>
+                
+                    <h1>4. División (/)</h1>
+                    <h3>Este operador divide un número entre otro. Por ejemplo, <code>20 / 4</code> devolverá <code>5</code>. Es importante considerar que si se divide entre cero, se generará un error, por lo que se recomienda validar los valores antes de usar este operador.</h3>
+                
+                    <h1>5. Módulo (%)</h1>
+                    <h3>El operador módulo devuelve el residuo de una división. Por ejemplo, <code>17 % 5</code> da como resultado <code>2</code>, ya que 5 cabe 3 veces en 17 con un sobrante de 2. Es útil para verificar si un número es par o impar, o para ciclos de repetición con condiciones específicas.</h3>
+                </div>
+                <div class="oper">
+
+                </div>
+                <div>
+                    <h1>Operadores Relacionales en Rogic</h1>
+                    <h3>Los operadores relacionales en Rogic permiten comparar valores entre sí. Su propósito principal es devolver un resultado lógico, es decir, <code>true</code> (verdadero) o <code>false</code> (falso), dependiendo de si la condición evaluada se cumple. Son ampliamente usados en estructuras condicionales y bucles.</h3>
+                
+                    <h1>1. Igualdad (==)</h1>
+                    <h3>Este operador compara si dos valores son exactamente iguales. Por ejemplo, <code>5 == 5</code> devolverá <code>true</code>, mientras que <code>5 == 3</code> devolverá <code>false</code>. Es común en sentencias <code>IF</code> y otras condiciones lógicas.</h3>
+                
+                    <h1>2. Desigualdad (!=)</h1>
+                    <h3>Sirve para comprobar si dos valores son diferentes. Por ejemplo, <code>8 != 5</code> es <code>true</code>, pero <code>8 != 8</code> es <code>false</code>. Es útil para ejecutar acciones si los valores no coinciden.</h3>
+                
+                    <h1>3. Mayor que (>)</h1>
+                    <h3>Evalúa si el valor de la izquierda es mayor que el de la derecha. Por ejemplo, <code>10 > 4</code> es <code>true</code>. Si se quiere saber si un número excede a otro, este es el operador indicado.</h3>
+                
+                    <h1>4. Menor que (<)</h1>
+                    <h3>Compara si el valor de la izquierda es menor que el de la derecha. Por ejemplo, <code>2 < 9</code> devuelve <code>true</code>. Es común en validaciones de rangos mínimos.</h3>
+                
+                    <h1>5. Mayor o igual que (>=)</h1>
+                    <h3>Verifica si un valor es mayor o igual a otro. Por ejemplo, <code>6 >= 6</code> devuelve <code>true</code>, lo que lo hace útil para condiciones inclusivas de máximos.</h3>
+                
+                    <h1>6. Menor o igual que (<=)</h1>
+                    <h3>Determina si un valor es menor o igual al otro. Por ejemplo, <code>4 <= 7</code> o <code>4 <= 4</code> devuelven <code>true</code>. Se usa en validaciones de límites inferiores.</h3>
+                
+                    <h3>Estos operadores permiten que los programas puedan tomar decisiones en función de las comparaciones entre datos, lo cual es esencial para el control de flujo y la lógica de cualquier programa en Rogic.</h3>
+                </div>
+                <h1><a href="#caracteristicas">Regresar al temario</a></h1>
+                <section class="esp">
+                
+                </section>        
+
+            </section>
+            <section class="ifelse">
+                <h1>Uso de Condicionales en Rogic para Robots</h1>
+
+                <h3>Los condicionales en Rogic permiten que el robot tome decisiones según ciertas condiciones. A continuación se muestran ejemplos prácticos:</h3>
+                <h1>Condicional IF ELSE</h1>
+                
+              
+                <h3><strong>IF (Si se cumple una condición):</strong> El robot ejecuta una acción si una condición es verdadera.</h3>
+                <div class="codigo">
+              // Si el sensor de luz detecta oscuridad, enciende el LED
+              IF SENSOR_LUZ < 300 THEN
+                ENCENDER_LED
+              ENDIF
+                </div>
+              
+                <h3><strong>IF-ELSE (Si se cumple, hacer esto; si no, hacer otra cosa):</strong> El robot elige entre dos caminos según la condición.</h3>
+                <div class="codigo">
+              // Si el botón está presionado, el robot avanza; si no, se detiene
+              IF BOTON == PRESIONADO THEN
+                MOVER_ADELANTE
+              ELSE
+                DETENER
+              ENDIF
+                </div>
+              
+                <h3><strong>IF - ELSE IF - ELSE:</strong> Permite evaluar múltiples condiciones en orden.</h3>
+                <div class="codigo">
+              // El robot ajusta la velocidad según la distancia
+              IF DISTANCIA < 10 THEN
+                DETENER
+              ELSEIF DISTANCIA < 20 THEN
+                VELOCIDAD = 50
+              ELSE
+                VELOCIDAD = 100
+              ENDIF
+                </div>
+              
+                <h3><strong>Condicional anidado:</strong> Se pueden colocar condiciones dentro de otras.</h3>
+                <div class="codigo">
+              // Si hay luz y el botón está presionado, el robot gira a la izquierda
+              IF SENSOR_LUZ > 500 THEN
+                IF BOTON == PRESIONADO THEN
+                  GIRAR_IZQUIERDA
+                ENDIF
+              ENDIF
+                </div>
+              
+                <h3><strong>Uso de sensores con condiciones:</strong> Los sensores son clave en decisiones del robot.</h3>
+                <div class="codigo">
+              // Si el sensor de línea detecta una línea negra, el robot gira
+              IF SENSOR_LINEA == NEGRO THEN
+                GIRAR_DERECHA
+              ENDIF
+                </div>
+                 
+            </section>
+
+    </div>
+</section>
             
-            <div class="codigo">
-                for i in range(5):
-                    print("Iteración", i)
-            </div>
-        
-            <h2>Conclusión</h2>
-            <p>Python es un lenguaje poderoso y fácil de aprender. Es ideal tanto para principiantes como para desarrolladores avanzados.</p>
-        
-    </head>
-</head>
-<body>
-    <div>
-    <h1>Python</h1>
-        <h1>Lista de temas a ver</h1>
-        <p>Aqui aprenderemos sobre como</p>
-        <h2><a href="#Print">Print</a></h2>
-        <h2>Variables</h2>
-        <h2>Ciclos</h2>
-        <h2>Funciones</h2>
-        <h2>Mas</h2>
-    </div>
-    <section id="Print">
-        <h2>Print</h2>
-        <p>Para imprimir un mensaje en la consola, se usa la función <code>print()</code>:</p>
-        
-        <div class="codigo">
-            print("¡Hola, mundo!")
-        </div>
-        <p>El comando print nos servira para muchas cosas ya que junto a este se nos permitira imprimir cualquier tipo de cosa mediante la terminal que nos da visual estudio code</p><br>
-        <h3>Mas ejemplos de este tipo</h2>
-            <p>Aqui se imprimira el nombre "Jesús"</p>
-            <div class="codigo">
-                print("Hola me llamo Jesús")
-            </div>
-            <p>Aqui se respondera a una suma </p>
-            <div class="codigo">
-                print("El resultado de tu suma es >= 10")
-            </div>
-            <p>Aqui preguntaremos al usuario si es que necesita algo mas</p>
-            <div class="codigo">
-                print("Necesitas algo mas?")
-            </div>
-        </section>
-    <h2>Variables en Python</h2>
-    <p>Python permite definir variables sin especificar su tipo:</p>
-    
-    <div class="codigo">
-        nombre = "Jesús"
-        edad = 20
-        precio = 19.99
-    </div>
-
-    <h2>Estructuras de control</h2>
-    <h3>Condicionales</h3>
-    <p>Ejemplo de estructura <code>if</code>:</p>
-    
-    <div class="codigo">
-        edad = 18
-        if edad >= 18:
-            print("Eres mayor de edad")
-        else:
-            print("Eres menor de edad")
-    </div>
-
-    <h3>Bucles</h3>
-    <p>Ejemplo de un bucle <code>for</code>:</p>
-    
-    <div class="codigo">
-        for i in range(5):
-            print("Iteración", i)
-    </div>
-
-    <h2>Conclusión</h2>
-    <p>Python es un lenguaje poderoso y fácil de aprender. Es ideal tanto para principiantes como para desarrolladores avanzados.</p>
-
 </body>
 </html>
         </ul>

@@ -79,6 +79,7 @@ header a:hover{
     color: blue;
 }
 
+/* Estilos del botón 
 #hero{
     display: flex;
     font-size: 2.0em;
@@ -97,7 +98,7 @@ header a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-}
+}*/
 #somos-proya .img-container{
     background-image: url("media/progrmacion1.jpg");
     background-size: auto;
@@ -109,7 +110,35 @@ header a:hover{
     background-size: cover;
     background-position: center center;
 }
+#rogic .Interfaz{
+    background-image: url("media/interfaz.png");
+    background-position: center center;
+    float: center;
+    height: 700px;
+    width: 1200px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;}
 
+#arimteticos .arim{
+        background-image: url("media/arimteticos.jpg");
+        background-position: center center;
+        float: center;
+        height: 700px;
+        width: 1250px; 
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;}
+
+#arimteticos .oper{
+            background-image: url("media/operacionales.png");
+            background-position: center center;
+            float: center;
+            height: 700px;
+            width: 800px; 
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;}
 #hero h1{
     color: white;
 }
@@ -212,6 +241,9 @@ header a:hover{
 #caracteristicas li{
     margin: 16px 0px;
     font-weight: bold;
+}
+#caracteristicas h1{
+    color: blue;
 }
 
 #final{
@@ -381,7 +413,9 @@ footer .container{
     #caracteristicas ul{
         margin-left: 100px;
     }
-
+    #caracteristicas .esp{
+        padding: 400px;
+    }
     #final h2{
         font-size: 5em;
     }

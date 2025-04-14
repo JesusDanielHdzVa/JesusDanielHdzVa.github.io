@@ -10,8 +10,8 @@
         <nav>
             <a href="#somos-proya">Descripcion basica</a>
             <a href="#nuestros-programas">Descargar C++</a>
-            <a href="#caracteristicas">Ejercicios</a>
-
+            <a href="#caracteristicas">Temario</a>
+            <a href="#ejercicos">Ejercicios</a>
         </nav>
     </div>
 </header>
@@ -60,88 +60,537 @@
     <div class="container">
     <title>Introducción a C++</title>
 
-</head>
-<body>
     <div>
     <h1>C++</h1>
         <h1>Lista de temas a ver</h1>
         <h2>Aqui aprenderemos sobre<h2>
 
         <h2><a href="#Variables">Variables<a></h2>
-        <h2><a href="#Datos">Entrada y salida de datos</a></h2>
-        <h2><a href="#Condicionales"></a></h2>
+        <h2><a href="#EntradaSalida">Entrada y salida de datos</a></h2>
+        <h2><a href="#Condicionales">Condicionales</a></h2>
         <h2><a href="#Bucles">Bucles</a></h2>
         <h2><a href="#Funciones">Funciones</a></h2>
-        <h2><a href="#Arrays">Arrays(Arreglos)</a></h2>
-    </div>
-    <section id="Variables">
-        <h2>Variables</h2>
-        <p>Son espacios en la memoria en los que se almacenaran todo tipo de datos, algunos tipos de ejemplos de como usar variables son los siguientes:</p>
-        
-        <div class="codigo">
-            int edad = 20;        
-        </div>
-        <p>El comando int nos servira para muchas cosas ya que junto a este se nos permitira almacenar cualquier tipo de dato entero</p><br>
-        <h3>Mas ejemplos de este tipo</h2>
-            <p>Aqui se creara una variable con el dato 87</p>
-            <div class="codigo">
-                int peso = 87;
-            </div>
-            <p>Aqui se respondera a una suma </p>
-            <div class="codigo">
-                print("El resultado de tu suma es >= 10")
-            </div>
-            <p>Aqui preguntaremos al usuario si es que necesita algo mas</p>
-            <div class="codigo">
-                print("Necesitas algo mas?")
-            </div>
+        <h2><a href="#Arreglos">Arrays(Arreglos)</a></h2>
+        <section class="esp">
+                
         </section>
-    <section id="Datos">
-
-    </section>
-    <section id="Condicionales">
-
-    </section>
-    <section id="Bucles">
-
-    </section>
-    <section id="Funciones">
-
-    </section>
-    <section id="Arrays">
-
-    </section>
-    <h2>Variables en Python</h2>
-    <p>Python permite definir variables sin especificar su tipo:</p>
-    
-    <div class="codigo">
-        nombre = "Jesús"
-        edad = 20
-        precio = 19.99
     </div>
+        <section id="Variables">
+            <h1>Variables en C++</h1>
+            <p>En C++, las variables son contenedores que almacenan valores. Cada ejemplo muestra la declaración de una variable y su uso básico.</p>
+            
+            <div class="codigo">
+                // Ejemplo 1: Variable entera
+                // Se declara una variable entera 'edad' y se muestra su valor en consola.
+                int edad = 30;
+                std::cout << "Edad: " << edad << std::endl;
+            </div>
+            <p><em>Explicación:</em> Se crea una variable de tipo <code>int</code> para almacenar la edad y se imprime su contenido.</p>
+            
+            <div class="codigo">
+                // Ejemplo 2: Variable flotante
+                // Se declara una variable de tipo float para almacenar la estatura.
+                float estatura = 1.75;
+                std::cout << "Estatura: " << estatura << std::endl;
+            </div>
+            <p><em>Explicación:</em> Se define un valor decimal para representar la estatura y se imprime.</p>
+            
+            <div class="codigo">
+                // Ejemplo 3: Variable de tipo carácter
+                // Se declara una variable de tipo char para almacenar una letra.
+                char inicial = 'A';
+                std::cout << "Inicial: " << inicial << std::endl;
+            </div>
+            <p><em>Explicación:</em> Se utiliza <code>char</code> para guardar un solo carácter y se muestra por consola.</p>
+            
+            <div class="codigo">
+                // Ejemplo 4: Variable de tipo cadena
+                // Se declara una variable de tipo std::string para almacenar una cadena de texto.
+                std::string nombre = "Carlos";
+                std::cout << "Nombre: " << nombre << std::endl;
+            </div>
+            <p><em>Explicación:</em> Se crea una variable de texto para guardar el nombre y se imprime.</p>
+            
+            <div class="codigo">
+                // Ejemplo 5: Variable booleana
+                // Se declara una variable booleana para determinar si alguien es estudiante.
+                bool esEstudiante = true;
+                std::cout << "Es estudiante: " << (esEstudiante ? "Sí" : "No") << std::endl;
+            </div>
+            <p><em>Explicación:</em> Se utiliza un valor booleano y el operador ternario para mostrar "Sí" o "No" según corresponda.</p>
+            
+            <h1><a href="#caracteristicas">Regresar al temario</a></h1>
+            <section class="esp">
 
-    <h2>Estructuras de control</h2>
-    <h3>Condicionales</h3>
-    <p>Ejemplo de estructura <code>if</code>:</p>
-    
-    <div class="codigo">
-        edad = 18
-        if edad >= 18:
-            print("Eres mayor de edad")
-        else:
-            print("Eres menor de edad")
-    </div>
-
-    <h3>Bucles</h3>
-    <p>Ejemplo de un bucle <code>for</code>:</p>
-    
-    <div class="codigo">
-        for i in range(5):
-            print("Iteración", i)
-    </div>
-
-    <h2>Conclusión</h2>
-    <p>Python es un lenguaje poderoso y fácil de aprender. Es ideal tanto para principiantes como para desarrolladores avanzados.</p>
+            </section>
+        </section>
+        
+        <!-- Entrada y salida de datos -->
+        <section id="EntradaSalida">
+            <h1>Entrada y salida de datos en C++</h1>
+            <p>En C++ se usan <code>std::cin</code> para la entrada y <code>std::cout</code> para la salida de datos. Cada ejemplo muestra cómo interactuar con el usuario.</p>
+            
+            <div class="codigo">
+                // Ejemplo 1: Leer un entero
+                // Se solicita al usuario que ingrese un número entero y luego se muestra.
+                #include <iostream>
+                int main() {
+                    int numero;
+                    std::cout << "Introduce un número entero: ";
+                    std::cin >> numero;
+                    std::cout << "Número ingresado: " << numero << std::endl;
+                    return 0;
+                }
+            </div>
+            <p><em>Explicación:</em> Se lee un número entero desde la consola y se imprime en pantalla.</p>
+            
+            <div class="codigo">
+                // Ejemplo 2: Leer un número flotante
+                // Se solicita un valor decimal al usuario y se muestra en consola.
+                #include <iostream>
+                int main() {
+                    float valor;
+                    std::cout << "Introduce un número con decimales: ";
+                    std::cin >> valor;
+                    std::cout << "Valor ingresado: " << valor << std::endl;
+                    return 0;
+                }
+            </div>
+            <p><em>Explicación:</em> Se utiliza <code>float</code> para leer y mostrar un número con punto decimal.</p>
+            
+            <div class="codigo">
+                // Ejemplo 3: Leer una cadena sin espacios
+                // Se solicita al usuario ingresar una palabra y se muestra.
+                #include <iostream>
+                #include <string>
+                int main() {
+                    std::string palabra;
+                    std::cout << "Introduce una palabra: ";
+                    std::cin >> palabra;
+                    std::cout << "Palabra ingresada: " << palabra << std::endl;
+                    return 0;
+                }
+            </div>
+            <p><em>Explicación:</em> Se lee una cadena sin espacios utilizando <code>std::cin</code> y se imprime.</p>
+            
+            <div class="codigo">
+                // Ejemplo 4: Salida de múltiples datos
+                // Se definen dos variables y se muestran ambas en una sola línea.
+                #include <iostream>
+                int main() {
+                    int x = 10;
+                    float y = 3.14;
+                    std::cout << "Valor de x: " << x << ", valor de y: " << y << std::endl;
+                    return 0;
+                }
+            </div>
+            <p><em>Explicación:</em> Se muestran múltiples variables en una salida formateada.</p>
+            
+            <div class="codigo">
+                // Ejemplo 5: Leer una línea completa de texto
+                // Se utiliza std::getline para leer una línea completa que puede contener espacios.
+                #include <iostream>
+                #include <string>
+                int main() {
+                    std::string frase;
+                    std::cout << "Introduce una frase: ";
+                    std::cin.ignore(); // Limpia el buffer
+                    std::getline(std::cin, frase);
+                    std::cout << "Frase ingresada: " << frase << std::endl;
+                    return 0;
+                }
+            </div>
+            <p><em>Explicación:</em> Permite leer una línea completa de texto, incluyendo espacios, usando <code>std::getline</code>.</p>
+            
+            <h1><a href="#caracteristicas">Regresar al temario</a></h1>
+            <section class="esp">
+                
+            </section>
+        </section>
+        
+        <!-- Condicionales -->
+        <section id="Condicionales">
+            <h1>Condicionales en C++</h1>
+            <p>Las condicionales permiten ejecutar bloques de código según se cumplan ciertas condiciones. Cada ejemplo ilustra un tipo distinto de estructura condicional.</p>
+            
+            <div class="codigo">
+                // Ejemplo 1: Uso básico de if
+                // Se verifica si la variable 'a' es mayor que 0 y, de ser cierto, se imprime un mensaje.
+                #include <iostream>
+                int main() {
+                    int a = 5;
+                    if(a > 0) {
+                        std::cout << "a es positivo." << std::endl;
+                    }
+                    return 0;
+                }
+            </div>
+            <p><em>Explicación:</em> Se usa la sentencia <code>if</code> para evaluar una condición simple.</p>
+            
+            <div class="codigo">
+                // Ejemplo 2: if-else
+                // Se evalúa si 'b' es no negativo; de lo contrario, se indica que es negativo.
+                #include <iostream>
+                int main() {
+                    int b = -3;
+                    if(b >= 0) {
+                        std::cout << "b es no negativo." << std::endl;
+                    } else {
+                        std::cout << "b es negativo." << std::endl;
+                    }
+                    return 0;
+                }
+            </div>
+            <p><em>Explicación:</em> Se utiliza la estructura <code>if-else</code> para tomar una de dos decisiones según la condición.</p>
+            
+            <div class="codigo">
+                // Ejemplo 3: if-else if-else
+                // Se evalúa el valor de 'c' para determinar si es positivo, negativo o cero.
+                #include <iostream>
+                int main() {
+                    int c = 0;
+                    if(c > 0) {
+                        std::cout << "c es positivo." << std::endl;
+                    } else if(c < 0) {
+                        std::cout << "c es negativo." << std::endl;
+                    } else {
+                        std::cout << "c es cero." << std::endl;
+                    }
+                    return 0;
+                }
+            </div>
+            <p><em>Explicación:</em> Se utiliza <code>if</code> con <code>else if</code> y <code>else</code> para cubrir todas las posibilidades.</p>
+            
+            <div class="codigo">
+                // Ejemplo 4: Condicional anidado
+                // Se verifica si 'd' es positivo y, dentro de esa condición, se comprueba si es par o impar.
+                #include <iostream>
+                int main() {
+                    int d = 8;
+                    if(d > 0) {
+                        if(d % 2 == 0) {
+                            std::cout << "d es positivo y par." << std::endl;
+                        } else {
+                            std::cout << "d es positivo pero impar." << std::endl;
+                        }
+                    }
+                    return 0;
+                }
+            </div>
+            <p><em>Explicación:</em> Se usan condicionales anidados para evaluar más de una condición.</p>
+            
+            <div class="codigo">
+                // Ejemplo 5: Operador ternario
+                // Se utiliza el operador ternario para imprimir si 'e' es par o impar en una sola línea.
+                #include <iostream>
+                int main() {
+                    int e = 15;
+                    std::cout << (e % 2 == 0 ? "e es par." : "e es impar.") << std::endl;
+                    return 0;
+                }
+            </div>
+            <p><em>Explicación:</em> Se simplifica la evaluación de una condición mediante el operador ternario.</p>
+            
+            <h1><a href="#caracteristicas">Regresar al temario</a></h1>
+            <section class="esp">
+                
+            </section>
+        </section>
+        
+        <!-- Bucles -->
+        <section id="Bucles">
+            <h1>Bucles en C++</h1>
+            <p>Los bucles permiten repetir la ejecución de un bloque de código. Cada ejemplo muestra un tipo distinto de bucle.</p>
+            
+            <div class="codigo">
+                // Ejemplo 1: Bucle for simple
+                // Se utiliza un bucle for para iterar 5 veces e imprimir el número de iteración.
+                #include <iostream>
+                int main() {
+                    for (int i = 0; i < 5; i++) {
+                        std::cout << "Iteración " << i << std::endl;
+                    }
+                    return 0;
+                }
+            </div>
+            <p><em>Explicación:</em> El bucle for recorre un rango de valores y ejecuta el bloque interno en cada iteración.</p>
+            
+            <div class="codigo">
+                // Ejemplo 2: Bucle while
+                // Se usa un bucle while para contar hasta 5, incrementando la variable 'contador'.
+                #include <iostream>
+                int main() {
+                    int contador = 0;
+                    while(contador < 5) {
+                        std::cout << "Contador: " << contador << std::endl;
+                        contador++;
+                    }
+                    return 0;
+                }
+            </div>
+            <p><em>Explicación:</em> El bucle while evalúa la condición antes de cada iteración y continúa mientras sea verdadera.</p>
+            
+            <div class="codigo">
+                // Ejemplo 3: Bucle do-while
+                // Se utiliza do-while para ejecutar el bloque al menos una vez y luego verificar la condición.
+                #include <iostream>
+                int main() {
+                    int i = 0;
+                    do {
+                        std::cout << "Do-while iteración " << i << std::endl;
+                        i++;
+                    } while(i < 5);
+                    return 0;
+                }
+            </div>
+            <p><em>Explicación:</em> El bucle do-while garantiza que el bloque se ejecute por lo menos una vez, verificando la condición al final.</p>
+            
+            <div class="codigo">
+                // Ejemplo 4: Bucle for con break
+                // Se recorre un bucle for e interrumpe la iteración cuando i alcanza 5.
+                #include <iostream>
+                int main() {
+                    for (int i = 0; i < 10; i++) {
+                        if(i == 5) {
+                            break; // Sale del bucle
+                        }
+                        std::cout << "Valor: " << i << std::endl;
+                    }
+                    return 0;
+                }
+            </div>
+            <p><em>Explicación:</em> Se demuestra el uso de <code>break</code> para terminar un bucle de forma anticipada.</p>
+            
+            <div class="codigo">
+                // Ejemplo 5: Bucle for-each con std::vector
+                // Se utiliza un bucle for-each para recorrer y mostrar cada elemento de un vector.
+                #include <iostream>
+                #include <vector>
+                int main() {
+                    std::vector<int> numeros = {1, 2, 3, 4, 5};
+                    for(auto num : numeros) {
+                        std::cout << "Número: " << num << std::endl;
+                    }
+                    return 0;
+                }
+            </div>
+            <p><em>Explicación:</em> El bucle for-each simplifica la iteración a través de todos los elementos de un contenedor como <code>std::vector</code>.</p>
+            
+            <h1><a href="#caracteristicas">Regresar al temario</a></h1>
+            <section class="esp">
+                
+            </section>
+        </section>
+        
+        <!-- Funciones -->
+        <section id="Funciones">
+            <h1>Funciones en C++</h1>
+            <p>Las funciones permiten encapsular bloques de código que realizan tareas específicas. Cada ejemplo muestra distintos aspectos de las funciones.</p>
+            
+            <div class="codigo">
+                // Ejemplo 1: Función sin parámetros
+                // Se define una función que imprime un saludo y se llama desde el main.
+                #include <iostream>
+                void saludar() {
+                    std::cout << "¡Hola, mundo!" << std::endl;
+                }
+                int main() {
+                    saludar();
+                    return 0;
+                }
+            </div>
+            <p><em>Explicación:</em> Se crea una función sencilla que no recibe parámetros y se invoca para mostrar un mensaje.</p>
+            
+            <div class="codigo">
+                // Ejemplo 2: Función con parámetros que retorna un entero
+                // La función 'sumar' recibe dos números, los suma y retorna el resultado.
+                #include <iostream>
+                int sumar(int a, int b) {
+                    return a + b;
+                }
+                int main() {
+                    std::cout << "Suma: " << sumar(4, 6) << std::endl;
+                    return 0;
+                }
+            </div>
+            <p><em>Explicación:</em> Se demuestra cómo pasar argumentos a una función y devolver un valor.</p>
+            
+            <div class="codigo">
+                // Ejemplo 3: Función que imprime un mensaje
+                // Se define una función que no retorna valor y simplemente imprime un mensaje.
+                #include <iostream>
+                void mensaje() {
+                    std::cout << "Este es un mensaje de la función." << std::endl;
+                }
+                int main() {
+                    mensaje();
+                    return 0;
+                }
+            </div>
+            <p><em>Explicación:</em> La función se usa para encapsular un mensaje que se muestra al ejecutarse.</p>
+            
+            <div class="codigo">
+                // Ejemplo 4: Función recursiva para calcular el factorial
+                // La función 'factorial' se llama a sí misma para calcular el factorial de un número.
+                #include <iostream>
+                int factorial(int n) {
+                    if(n <= 1)
+                        return 1;
+                    else
+                        return n * factorial(n - 1);
+                }
+                int main() {
+                    std::cout << "Factorial de 5: " << factorial(5) << std::endl;
+                    return 0;
+                }
+            </div>
+            <p><em>Explicación:</em> Se utiliza la recursión para calcular el factorial de un número.</p>
+            
+            <div class="codigo">
+                // Ejemplo 5: Función con parámetros por defecto
+                // La función 'imprimirMensaje' tiene un parámetro con un valor por defecto, 
+                // permitiendo llamarla con o sin un argumento personalizado.
+                #include <iostream>
+                void imprimirMensaje(std::string msg = "Mensaje por defecto") {
+                    std::cout << msg << std::endl;
+                }
+                int main() {
+                    imprimirMensaje("Mensaje personalizado");
+                    imprimirMensaje();
+                    return 0;
+                }
+            </div>
+            <p><em>Explicación:</em> Se muestra cómo asignar valores por defecto a los parámetros de una función.</p>
+            
+            <h1><a href="#caracteristicas">Regresar al temario</a></h1>
+            <section class="esp">
+                
+            </section>
+        </section>
+        
+        <!-- Arreglos -->
+        <section id="Arreglos">
+            <h1>Arreglos en C++</h1>
+            <p>Los arreglos permiten almacenar múltiples elementos del mismo tipo. Cada ejemplo ilustra una forma de declarar y utilizar arreglos.</p>
+            
+            <div class="codigo">
+                // Ejemplo 1: Arreglo de enteros
+                // Se declara un arreglo de 5 enteros y se recorren para imprimir cada elemento.
+                #include <iostream>
+                int main() {
+                    int numeros[5] = {10, 20, 30, 40, 50};
+                    for (int i = 0; i < 5; i++) {
+                        std::cout << "Elemento " << i << ": " << numeros[i] << std::endl;
+                    }
+                    return 0;
+                }
+            </div>
+            <p><em>Explicación:</em> Se crea un arreglo fijo y se utiliza un bucle for para recorrer e imprimir sus elementos.</p>
+            
+            <div class="codigo">
+                // Ejemplo 2: Arreglo de flotantes
+                // Se declara un arreglo de números decimales y se imprime cada valor.
+                #include <iostream>
+                int main() {
+                    float temperaturas[4] = {36.6, 37.0, 36.8, 37.2};
+                    for (int i = 0; i < 4; i++) {
+                        std::cout << "Temperatura " << i << ": " << temperaturas[i] << std::endl;
+                    }
+                    return 0;
+                }
+            </div>
+            <p><em>Explicación:</em> Se muestra el uso de un arreglo para almacenar valores flotantes y recorrerlo con un bucle.</p>
+            
+            <div class="codigo">
+                // Ejemplo 3: Arreglo de cadenas
+                // Se declara un arreglo de strings para almacenar nombres de frutas y se recorre para imprimirlos.
+                #include <iostream>
+                #include <string>
+                int main() {
+                    std::string frutas[3] = {"Manzana", "Banana", "Naranja"};
+                    for (int i = 0; i < 3; i++) {
+                        std::cout << "Fruta " << i << ": " << frutas[i] << std::endl;
+                    }
+                    return 0;
+                }
+            </div>
+            <p><em>Explicación:</em> Se utiliza un arreglo de tipo <code>std::string</code> para almacenar y mostrar nombres de frutas.</p>
+            
+            <div class="codigo">
+                // Ejemplo 4: Arreglo multidimensional (matriz 2x3)
+                // Se declara una matriz de 2 filas y 3 columnas y se recorren ambos índices para imprimir cada elemento.
+                #include <iostream>
+                int main() {
+                    int matriz[2][3] = { {1, 2, 3}, {4, 5, 6} };
+                    for (int i = 0; i < 2; i++) {
+                        for (int j = 0; j < 3; j++) {
+                            std::cout << "Elemento [" << i << "][" << j << "]: " << matriz[i][j] << std::endl;
+                        }
+                    }
+                    return 0;
+                }
+            </div>
+            <p><em>Explicación:</em> Se declara una matriz bidimensional y se utiliza un bucle anidado para recorrer cada posición.</p>
+            
+            <div class="codigo">
+                // Ejemplo 5: Uso de std::vector (arreglo dinámico)
+                // Se declara un vector de enteros y se usa un bucle for-each para imprimir sus elementos.
+                #include <iostream>
+                #include <vector>
+                int main() {
+                    std::vector<int> numeros = {5, 10, 15, 20};
+                    for(auto n : numeros) {
+                        std::cout << "Número: " << n << std::endl;
+                    }
+                    return 0;
+                }
+            </div>
+            <p><em>Explicación:</em> Se utiliza <code>std::vector</code> para crear un arreglo dinámico y recorrerlo con un bucle de rango.</p>
+            
+            <h1><a href="#caracteristicas">Regresar al temario</a></h1>
+            <section class="esp">
+                
+            </section>
+        </section>
+        
+        <!-- Temario principal -->
+    <section id="ejercicos">
+        <h1>Ejercicios de C++</h1>
+            <h1>Ejercicios por Tema</h1>
+        
+            <h2>Variables</h2>
+            <h3>1. Crea un programa que guarde tu nombre, edad y altura, y luego imprima esos valores.</h3>
+            <h3>2. Declara tres variables numéricas (int) y realiza operaciones básicas con ellas (suma, resta, multiplicación, división).</h3>
+            <h3>3. Intercambia el valor de dos variables usando una variable auxiliar.</h3>
+        
+            <h2>Entrada y salida de datos</h2>
+            <h3>1. Pide al usuario su nombre y edad, y muestra un mensaje con esos datos.</h3>
+            <h3>2. Solicita dos números al usuario y muestra su suma, resta, multiplicación y división.</h3>
+            <h3>3. Pide al usuario su año de nacimiento y muestra su edad actual.</h3>
+        
+            <h2>Condicionales</h2>
+            <h3>1. Pide al usuario un número y muestra si es positivo, negativo o cero.</h3>
+            <h3>2. Solicita la calificación de un estudiante y muestra si aprueba (mayor o igual a 60) o no.</h3>
+            <h3>3. Crea un programa que compare dos números e indique cuál es mayor, o si son iguales.</h3>
+        
+            <h2>Bucles</h2>
+            <h3>1. Muestra los números del 1 al 10 usando un bucle <code>for</code>.</h3>
+            <h3>2. Pide un número al usuario y muestra su tabla de multiplicar del 1 al 10.</h3>
+            <h3>3. Suma los números del 1 al 100 usando un bucle <code>while</code>.</h3>
+        
+            <h2>Funciones</h2>
+            <h3>1. Crea una función que reciba dos números y devuelva su suma.</h3>
+            <h3>2. Haz una función que determine si un número es par o impar.</h3>
+            <h3>3. Crea una función que imprima un mensaje de saludo personalizado.</h3>
+        
+            <h2>Arreglos</h2>
+            <h3>1. Declara un arreglo de 5 enteros, asigna valores y muestra cada uno con un bucle.</h3>
+            <h3>2. Solicita 5 números al usuario, guárdalos en un arreglo e imprime el promedio.</h3>
+            <h3>3. Crea un programa que busque el número mayor dentro de un arreglo de 10 elementos.</h3>
+            <h1><a href="#caracteristicas">Regresar al temario</a></h1>    
+        
+    </section>
+<body>
 
 </body>
 </html>

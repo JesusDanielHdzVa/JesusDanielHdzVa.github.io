@@ -206,12 +206,15 @@ header a:hover{
 }
 #caracteristicas .container{
     text-align: center;
-    padding: 250px 12px;
+    padding: 55px 12px;
 }
 
 #caracteristicas li{
     margin: 16px 0px;
     font-weight: bold;
+}
+#caracteristicas h1{
+    color: blue;
 }
 
 #final{
@@ -381,7 +384,9 @@ footer .container{
     #caracteristicas ul{
         margin-left: 100px;
     }
-
+    #caracteristicas .esp{
+        padding: 400px;
+    }
     #final h2{
         font-size: 5em;
     }
