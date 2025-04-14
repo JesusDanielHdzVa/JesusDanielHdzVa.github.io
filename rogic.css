@@ -79,7 +79,6 @@ header a:hover{
     color: blue;
 }
 
-/* Estilos del botón 
 #hero{
     display: flex;
     font-size: 2.0em;
@@ -98,7 +97,7 @@ header a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-}*/
+}
 #somos-proya .img-container{
     background-image: url("media/progrmacion1.jpg");
     background-size: auto;
