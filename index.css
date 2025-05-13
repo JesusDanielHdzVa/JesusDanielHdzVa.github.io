@@ -243,6 +243,7 @@ header a:hover{
     background-size: cover;
     background-position: right right;
 }
+
 #texto .container .img{
 
     background-image: url("media/tabla.png");
@@ -250,6 +251,18 @@ header a:hover{
     float: center;
     height: 700px;
     width: 850px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#texto .container .img2{
+
+    background-image: url("media/resultados.png");
+    background-position: center center;
+    float: center;
+    height: 700px;
+    width: 900px; 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
